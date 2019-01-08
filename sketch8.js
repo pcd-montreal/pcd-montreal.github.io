@@ -33,12 +33,12 @@ function drawJagged() {
     contador1++;
     contador = contador + dato;
     if (contador <= 204) {
-        dato = 0.05;
-        contador += 0.05;
+        dato = 0.5;
+        contador += 0.5;
     }
     if (contador >= 255) {
-        dato = -0.05;
-        contador -= 0.05;
+        dato = -0.5;
+        contador -= 0.5;
     }
     background(204, contador, 240);
     var ruidoX = 0.00000000018;
@@ -58,7 +58,7 @@ function drawCylinderAzul() {
     var sides = ruidoLoco;
 
     ambientLight(255, 0, 0);
-    ambientMaterial(20, 0, 50, 80);
+    ambientMaterial(20, 0, 50, 60);
 
     //ambientMaterial(0, 100, 255, 180);
     var angleIncrement = TWO_PI / sides;
@@ -98,7 +98,7 @@ function drawCylinderVerde() {
     var sides = ruidoLoco;
 
     ambientLight(255, 255, 255);
-    ambientMaterial(255, 255, 255, 140);
+    ambientMaterial(255, 255, 255, 80);
 
     //ambientMaterial(0, 100, 255, 180);
     var angleIncrement = TWO_PI / sides;
@@ -137,7 +137,7 @@ function drawCylinderTrian() {
     var sides = ruidoLoco;
 
     ambientLight(255, 255, 255);
-    ambientMaterial(255, 150, 0, 180);
+    ambientMaterial(255, 150, 0, 200);
 
     //ambientMaterial(0, 100, 255, 180);
     var angleIncrement = TWO_PI / sides;
