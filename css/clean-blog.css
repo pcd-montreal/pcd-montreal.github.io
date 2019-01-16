@@ -5,10 +5,22 @@
  */
 
 body {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-family: InputMono-Regular;
+    src: url("path/InputMono-Regular.otf") format("opentype");
+    font-size: 22px;
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     /*font-family: InputMono-Regular;*/
     font-family: 'Barlow Semi Condensed', sans-serif;
     /*src: url("path/InputMono-Regular.otf") format("opentype");*/
     font-size: 20px;
+>>>>>>> origin/master
     color: #333333;
 }
 
@@ -43,10 +55,23 @@ sub2 {
 
 p {
     text-align: justify;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-family: InputMono-Regular;
+    src: url("path/InputMono-Regular.otf") format("opentype");
+    line-height: 1.55;
+    font-size: 22px;
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     /*font-family: InputMono-Regular;*/
     /*src: url("path/InputMono-Regular.otf") format("opentype");*/
     line-height: 1.5;
     font-size: 18px;
+>>>>>>> origin/master
     /*background: white;*/
 }
 p a {
