@@ -4,6 +4,32 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+#gallery-text-left{
+    /* Added */
+    width: 50%;
+
+}
+
+#gallery-paragraph-1{
+border-left:0px solid #000;
+border-radius:4px;
+padding-left:0px;
+    /* Added */
+    word-wrap: break-word;
+}
+
+#gallery-paragraph-2{
+border-left:0px solid #fcff5b;
+border-radius:0px;
+padding-left:0px;
+}
+
+#gallery-text-right{
+    /* Added */
+    width: 50%;
+
+}
+
 body {
     font-family: 'Inconsolata', monospace;
     font-size: 22px;
